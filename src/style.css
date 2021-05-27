@@ -1,20 +1,55 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    height: 100vh;
-    font-family: 'Poppins';
+body {
+  height: 100vh;
+  font-family: "Poppins";
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.font-exo {
+  font-family: "Exo 2", sans-serif;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 100px;
+  max-width: 500px;
+  transform: translateY(-50%);
+}
+
+.content h1 {
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 1;
+  font-size: 2.25rem;
+}
+
+.content p {
+  color: #9ca3af;
+  margin-bottom: 2rem;
+}
+
+.content a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #059669;
+  padding: 18px 32px;
+  border-radius: 9999px;
 }
